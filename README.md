@@ -15,42 +15,41 @@ Home Page: https://www.owasp.org/index.php/Cuiaba
 Localidade: Cuiabá – MT 
 Data fundação: Date: 01/07/2011 
 
-
 Apresentações reallizadas: 
 ============
-> "Universidade Federal de Mato Grosso - UFMT 
+* Universidade Federal de Mato Grosso - UFMT 
 Title: Apresentação OWASP cuiabá 
 Event: UFMT
 Date: 22/03/2012
 
-> "Universidade de Cuiabá - UNIC 
+* Universidade de Cuiabá - UNIC 
 Title: Apresentação OWASP cuiabá 
 Event: UNIC 
 Date: 02/04/2012
 
-> "Unirondon Centro Universitário - UNIRONDON 
+* Unirondon Centro Universitário - UNIRONDON 
 Title: Apresentação OWASP cuiabá 
 Event: Unirondon 
 Date: 09/04/2012
 
-> "Centro Universitario de Varzea Grande - UNIVAG 
+* Centro Universitario de Varzea Grande - UNIVAG 
 Title: Apresentação OWASP cuiabá 
 Event: UNIVAG
 Date: 10/04/2011
 
-> "ICEC - Instituto Cuiabá de Ensino e Cultura 
+* ICEC - Instituto Cuiabá de Ensino e Cultura 
 Title: Apresentação OWASP cuiabá 
 Event:1ª Feira Cultural Multidisciplinar do ICEC e IESMT ICEC - Instituto Cuiabá de Ensino e Cultura
 Date: 14, 15 e 16 de Maio 2012.
 
 Meios de Comunicação
 ============
-> "Blogspot: 
-http://owasp-cuiaba.blogspot.com.br/"
+'Blogspot: 
+http://owasp-cuiaba.blogspot.com.br/'
 
-> "Lista de Comunicação: 
+Lista de Comunicação: 
 https://lists.owasp.org/mailman/listinfo/owasp-cuiaba 
 
-> "Documentação: 
-http://pt.slideshare.net/OWASP_cuiaba"
+Documentação: 
+http://pt.slideshare.net/OWASP_cuiaba
 
