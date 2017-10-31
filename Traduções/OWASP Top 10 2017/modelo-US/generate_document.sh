@@ -3,20 +3,6 @@
 echo "OWASP Top 10 Markdown Conversion Tool"
 echo ""
 
-function command_exists () {
-    command -v $1 >/dev/null 2>&1;
-}
-
-if ! command_exists pandoc; then
-    echo "Error: Please install pandoc. Cannot continue"
-    exit;
-fi
-
-if ! command_exists xelatex; then
-    echo "Warning: Install xelatex to produce PDF output"
-fi
-
-echo ""
 
 generate_pdf() {
     if command_exists xelatex; then
@@ -53,8 +39,8 @@ generate() {
 # Arabic
 #generate "ar"
 
-# Brazil
-#generate "br"
+Brazil
+generate "br"
 
 # Chinese 
 #generate "cn"
